@@ -3,7 +3,7 @@
     display: block;
     margin: 0 auto;
 
-    &--MEDIUM {
-        max-width: $large-screen;
+    &--SMALL {
+        max-width: $small-screen;
     }
 }

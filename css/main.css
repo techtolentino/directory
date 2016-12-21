@@ -377,13 +377,38 @@ body {
 .band {
   padding-top: 2em;
   padding-bottom: 2em; }
+  .band--MEDIUM {
+    padding-top: 4em;
+    padding-bottom: 4em; }
+  .band--COOL {
+    background: #09c5c5; }
 
 .container {
   padding: 0 2em 0 2em;
   display: block;
   margin: 0 auto; }
-  .container--MEDIUM {
-    max-width: 50em; }
+  .container--SMALL {
+    max-width: 30em; }
+
+.form--search {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  display: block;
+  width: 100%;
+  margin-bottom: 2em; }
+
+.form--submit {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  background: #323232;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  color: #fbfbfb; }
 
 .highlight {
   background: #fbfbfb;
@@ -708,3 +733,12 @@ sup {
     font-size: 1.20em; }
   h4 {
     font-size: 1.10em; } }
+
+.text--WHITE {
+  color: #fbfbfb; }
+
+.text--small {
+  font-size: 0.875em; }
+
+.align--CENTER {
+  text-align: center; }

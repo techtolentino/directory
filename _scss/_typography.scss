@@ -92,3 +92,13 @@ sup {
         font-size: 1.10em;
     }
 }
+
+.text {
+    &--WHITE {
+        color: $background-color;
+    }
+
+    &--small {
+        font-size: 0.875em;
+    }
+}

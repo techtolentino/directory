@@ -2,12 +2,25 @@
 layout: default
 title: Catalog
 ---
-
-<div>
-  <h1>Whattup world?</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div class="band band--MEDIUM band--COOL">
+    <div class="container container--SMALL">
+        <div class="align--CENTER text--WHITE">
+            <h1>Slack Directory</h1>
+            <p>Search for internal, customized integrations or bots that can be integrated with Slack.</p>
+            <input class="form--search" type="text">
+            <button class="form--submit text--small">Search</button>
+        </div>
+    </div>
 </div>
+
+
+
+<!-- <div>
+    <h1>Whattup world?</h1>
+    <ul class="posts">
+        {% for post in site.posts %}
+            <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+-->
