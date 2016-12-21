@@ -1,12 +1,12 @@
 {
-  "name": "browser-sync-jekyll",
+  "name": "slack-directory",
   "version": "0.0.0",
-  "description": "A starter project including full setup for Jekyll, GulpJS, SASS & BrowserSync",
+  "description": "A test Slack Directory for internal apps, bots, and custom integrations",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Shane Osbourne",
+  "author": "Randy Tolentino",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.8.8",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync.git"
+    "url": "https://github.com/techtolentino/catalog.git"
   },
   "keywords": [
     "jekyll",
@@ -25,7 +25,7 @@
     "browsersync"
   ],
   "bugs": {
-    "url": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync/issues"
+    "url": "https://github.com/techtolentino/catalog/issues"
   },
-  "homepage": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync"
+  "homepage": "https://github.com/techtolentino/catalog"
 }

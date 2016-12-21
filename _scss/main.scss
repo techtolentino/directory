@@ -1,6 +1,10 @@
-@import "reset";
-@import "syntax";
+@import "normalize";
 
-body {
-    background: white;
-}
+@import "config";
+@import "base";
+@import "functions";
+
+@import "bands";
+@import "container";
+@import "syntax";
+@import "typography";
