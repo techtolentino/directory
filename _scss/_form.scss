@@ -7,18 +7,22 @@
 
 .form {
     &--search {
+        border: 1px solid $gray-color;
+        display: flex;
+    }
+
+    &--input {
         @include form-padding;
-        display: block;
+        background: $background-color;
+        border: none;
         width: 100%;
-        margin-bottom: $spacing-unit;
     }
 
     &--submit {
         @include form-padding;
-        background: $text-color;
+        background: $background-color;
         outline: none;
         border: none;
-        border-radius: 2px;
         color: $background-color;
     }
 }

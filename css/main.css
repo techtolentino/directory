@@ -391,23 +391,27 @@ body {
     max-width: 30em; }
 
 .form--search {
+  border: 1px solid #aeaeae;
+  display: -ms-flexbox;
+  display: flex; }
+
+.form--input {
   padding-top: 0.25em;
   padding-bottom: 0.25em;
   padding-left: 0.5em;
   padding-right: 0.5em;
-  display: block;
-  width: 100%;
-  margin-bottom: 2em; }
+  background: #fbfbfb;
+  border: none;
+  width: 100%; }
 
 .form--submit {
   padding-top: 0.25em;
   padding-bottom: 0.25em;
   padding-left: 0.5em;
   padding-right: 0.5em;
-  background: #323232;
+  background: #fbfbfb;
   outline: none;
   border: none;
-  border-radius: 2px;
   color: #fbfbfb; }
 
 .highlight {
